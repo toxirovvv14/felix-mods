@@ -3,14 +3,14 @@
 
   const translations = {
     ru: {
-      personalAccess: "ЛИЧНЫЙ ДОСТУП", heroCopy: "Простой доступ к твоему серверу.",
+      personalAccess: "ЛИЧНЫЙ ДОСТУП", heroCopy: "Твой доступ. Твой сервер.",
       personalCabinet: "ЛИЧНЫЙ КАБИНЕТ", privateAccess: "Приватный доступ",
-      activateAccess: "Активировать доступ", activateCopy: "Введи ключ, который получил у администратора.",
+      activateAccess: "Активировать доступ", activateCopy: "Введи ключ доступа, чтобы продолжить.",
       accessKey: "КЛЮЧ ДОСТУПА", keyHint: "Ключ привязывается к этому устройству при первой активации.",
-      checkKey: "ПРОВЕРИТЬ", accessActive: "ДОСТУП АКТИВЕН", expiresAt: "СРОК ДЕЙСТВИЯ ДО",
+      checkKey: "ПРОВЕРИТЬ КЛЮЧ", accessActive: "ДОСТУП АКТИВЕН", expiresAt: "СРОК ДЕЙСТВИЯ ДО",
       remaining: "ОСТАЛОСЬ", serverAvailable: "СЕРВЕР ДОСТУПЕН", open: "ОТКРЫТЬ",
       openHint: "Открытие зависит от поддержки ссылки приложением и браузером.",
-      getKey: "Получить ключ в Telegram", featureFast: "Быстрый доступ",
+      getKey: "Нужен ключ? Напиши администратору", featureFast: "Быстрый доступ",
       featureFastCopy: "Проверка ключа за несколько секунд.", featureDevice: "Одно устройство",
       featureDeviceCopy: "Защита ключа привязкой к устройству.", featureSupport: "Поддержка 24/7",
       featureSupportCopy: "Связь с администратором через Telegram.",
@@ -27,14 +27,14 @@
       dateLocale: "ru-RU"
     },
     en: {
-      personalAccess: "PERSONAL ACCESS", heroCopy: "Simple access to your server.",
+      personalAccess: "PERSONAL ACCESS", heroCopy: "Your access. Your server.",
       personalCabinet: "PERSONAL CABINET", privateAccess: "Private access",
-      activateAccess: "Activate access", activateCopy: "Enter the key you received from the administrator.",
+      activateAccess: "Activate access", activateCopy: "Enter your access key to continue.",
       accessKey: "ACCESS KEY", keyHint: "The key is linked to this device on first activation.",
-      checkKey: "VERIFY KEY", accessActive: "ACCESS ACTIVE", expiresAt: "ACCESS EXPIRES",
+      checkKey: "VERIFY ACCESS KEY", accessActive: "ACCESS ACTIVE", expiresAt: "ACCESS EXPIRES",
       remaining: "TIME LEFT", serverAvailable: "SERVER AVAILABLE", open: "OPEN",
       openHint: "Opening depends on support for the link in your app and browser.",
-      getKey: "Get a key on Telegram", featureFast: "Fast access",
+      getKey: "Need a key? Contact the administrator", featureFast: "Fast access",
       featureFastCopy: "Verify your key in seconds.", featureDevice: "One device",
       featureDeviceCopy: "Device binding helps protect your key.", featureSupport: "24/7 support",
       featureSupportCopy: "Contact the administrator on Telegram.",

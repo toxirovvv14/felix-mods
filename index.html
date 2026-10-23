@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#10120f">
-  <meta name="description" content="FELIX MODZ — личный кабинет доступа к серверу.">
-  <title>FELIX MODZ — Личный кабинет</title>
+  <meta name="theme-color" content="#0b0b10">
+  <meta name="description" content="FELIX MODZ — личный доступ к серверу.">
+  <title>FELIX MODZ — Личный доступ</title>
   <link rel="stylesheet" href="/style.css">
   <script src="/script.js" defer></script>
 </head>
@@ -24,19 +24,19 @@
 
     <main>
       <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-mark" aria-hidden="true"><span>F</span></div>
         <p class="eyebrow"><span class="status-dot"></span><span data-i18n="personalAccess">ЛИЧНЫЙ ДОСТУП</span></p>
         <h1 id="hero-title">FELIX <span>MODZ</span></h1>
-        <p class="hero-copy" data-i18n="heroCopy">Простой доступ к твоему серверу.</p>
-        <div class="hero-rule"><span></span></div>
+        <p class="hero-copy" data-i18n="heroCopy">Твой доступ. Твой сервер.</p>
       </section>
 
       <section class="panel access-panel" aria-labelledby="access-title">
         <div class="section-heading">
-          <p class="eyebrow muted" data-i18n="personalCabinet">ЛИЧНЫЙ КАБИНЕТ</p>
+          <span class="section-index">01 / ACCESS</span>
           <span class="secure-label"><span class="secure-dot"></span><span data-i18n="privateAccess">Приватный доступ</span></span>
         </div>
         <h2 id="access-title" data-i18n="activateAccess">Активировать доступ</h2>
-        <p class="section-copy" data-i18n="activateCopy">Введи ключ, который получил у администратора.</p>
+        <p class="section-copy" data-i18n="activateCopy">Введи ключ доступа, чтобы продолжить.</p>
 
         <form id="activate-form" novalidate>
           <label for="license-key" data-i18n="accessKey">КЛЮЧ ДОСТУПА</label>
@@ -47,7 +47,7 @@
           </div>
           <p id="key-hint" class="field-hint" data-i18n="keyHint">Ключ привязывается к этому устройству при первой активации.</p>
           <button id="check-button" class="button button-primary" type="submit">
-            <span class="button-label" data-i18n="checkKey">ПРОВЕРИТЬ</span>
+            <span class="button-label" data-i18n="checkKey">ПРОВЕРИТЬ КЛЮЧ</span>
             <span class="button-arrow" aria-hidden="true">↗</span>
           </button>
         </form>
@@ -75,7 +75,7 @@
             <span class="server-online" aria-label="Online"></span>
           </div>
           <button id="open-button" class="button button-primary" type="button" disabled>
-            <span data-i18n="open">ОТКРЫТЬ</span><span class="button-arrow" aria-hidden="true">↗</span>
+            <span data-i18n="open">ОТКРЫТЬ СЕРВЕР</span><span class="button-arrow" aria-hidden="true">↗</span>
           </button>
           <p id="open-hint" class="field-hint" data-i18n="openHint">Открытие зависит от поддержки ссылки приложением и браузером.</p>
         </section>
@@ -86,34 +86,16 @@
           <svg viewBox="0 0 24 24" role="img" aria-label="Telegram"><path d="M21.4 4.6 18.2 20c-.2 1.1-.9 1.4-1.8.9l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.1 9.3-8.4c.4-.4-.1-.6-.6-.2L5.6 13.5.7 12c-1.1-.3-1.1-1 .2-1.5L20 3.1c.9-.3 1.7.2 1.4 1.5Z"/></svg>
         </span>
         <span class="telegram-copy">
-          <strong data-i18n="getKey">Получить ключ в Telegram</strong>
+          <strong data-i18n="getKey">Нужен ключ? Напиши администратору</strong>
           <span>@z4soft</span>
         </span>
         <span class="telegram-arrow" aria-hidden="true">↗</span>
       </a>
-
-      <section class="features" aria-label="Преимущества">
-        <article class="feature">
-          <span class="feature-number">01</span>
-          <h3 data-i18n="featureFast">Быстрый доступ</h3>
-          <p data-i18n="featureFastCopy">Проверка ключа за несколько секунд.</p>
-        </article>
-        <article class="feature">
-          <span class="feature-number">02</span>
-          <h3 data-i18n="featureDevice">Одно устройство</h3>
-          <p data-i18n="featureDeviceCopy">Защита ключа привязкой к устройству.</p>
-        </article>
-        <article class="feature">
-          <span class="feature-number">03</span>
-          <h3 data-i18n="featureSupport">Поддержка 24/7</h3>
-          <p data-i18n="featureSupportCopy">Связь с администратором через Telegram.</p>
-        </article>
-      </section>
     </main>
 
     <footer class="footer">
-      <span>FELIX MODZ <span class="footer-separator">•</span> <a href="https://web.telegram.org/k/#@z4soft" target="_blank" rel="noopener noreferrer">@z4soft</a></span>
-      <span class="footer-note" data-i18n="footerNote">Личный доступ · защищённая проверка</span>
+      <span>© FELIX MODZ</span>
+      <a href="https://web.telegram.org/k/#@z4soft" target="_blank" rel="noopener noreferrer">@z4soft</a>
     </footer>
   </div>
 </body>
